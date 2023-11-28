@@ -8,6 +8,11 @@
     text-align: center;
     white-space: nowrap;
     align-items: center;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
 
     &--primary {
         color: #fff;
@@ -23,4 +28,5 @@
         display: flex;
         align-items: center;
     }
+
 }
